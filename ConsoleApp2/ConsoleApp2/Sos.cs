@@ -9,6 +9,7 @@ namespace ConsoleApp2
     class Sos : Skladnik
     {
         public Sos(string nazwaSkladnika, double cenaSkladnika)
+            :base(nazwaSkladnika,cenaSkladnika)
         {
             this.nazwaSkladnika = nazwaSkladnika;
             this.cenaSkladnika = cenaSkladnika;

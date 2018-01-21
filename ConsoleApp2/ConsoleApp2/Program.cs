@@ -10,8 +10,6 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Skladnik skladnik1 = new Skladnik("Dupa", 13);
-            Console.WriteLine(skladnik1);
             List<string> skladnik = new List<string>();
             skladnik.Add("Peperoni");
             skladnik.Add("Ser");
@@ -19,7 +17,8 @@ namespace ConsoleApp2
             skladnik.Add("Cebula");
             skladnik.Add("Oliwki");
             skladnik.Add("Ketchup");
-
+            
+            //Wypisanie listy na konsoli
             for (int i = 0; i < skladnik.Count; i++)
             {
                 Console.WriteLine(skladnik[i] + " ");
